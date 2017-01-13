@@ -313,4 +313,4 @@ function backup(){
 }
 
 
-bot.login("MjE1MTkxNzI0MDE5MDIzODcy.C1crfQ.fv9WJXKtv0CQNSDnLbZ669lyF1I");
+bot.login("token");
