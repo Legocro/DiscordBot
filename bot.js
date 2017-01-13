@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Discord = require("discord.js");
 
-process.chdir('C:\\Users\\Marin\\Desktop\\Code\\DiscordBot');
+process.chdir('C:\\Path\\To\\The\\Bot\\');
 var bot = new Discord.Client();
 var winners = JSON.parse(fs.readFileSync('./winners.json', 'utf8').toString());
 var perms = JSON.parse(fs.readFileSync('./premissions.json','utf8').toString());
